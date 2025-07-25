@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #BFB7B6;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #333;
+    font-weight: bolder;
+}
+
+.diff-buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 100px;
+    margin-bottom: 70px;
+}
+
+.diff-buttons {
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: #DCF763;
+}
+
+.diff-buttons:hover {
+    background-color: #A8D600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transform: scale(1.05);
+}
+
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; /* Removed 20px bottom margin */
+    padding: 10px;
+    background-color: #8B9AA8;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.game-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF5C5C;
+    margin: 0 auto; /* No margins to minimize spacing */
+    width: fit-content;
+    display: none; /* Hidden by default */
+}
+
+.game-message.show {
+    display: block; /* Show when game ends */
+}
+
+#mines-count, #timer {
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    color: #FF5C5C;
+    background-color: #333;
+}
+
+#reset-button, #flag-button {
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+#board {
+    display: grid;
+    gap: 1px;
+    background-color: #bbb;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px;
+    border: 2px solid #888;
+    margin-top: 0px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cell.revealed {
+    background-color: #eee;
+    cursor: default;
+}
+
+
+
+.cell.num-1 { color: blue; }
+.cell.num-2 { color: green; }
+.cell.num-3 { color: red; }
+.cell.num-4 { color: navy; }
+.cell.num-5 { color: maroon; }
+.cell.num-6 { color: teal; }
+.cell.num-7 { color: black; }
+.cell.num-8 { color: gray; }
+
+.tool-bar {
+    margin-top: 20px;
+    display: flex; 
+    justify-content: center; 
+}

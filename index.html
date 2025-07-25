@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINESWEEPER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MINESWEEPER</h1>
+    <div class="diff-buttons-container">
+        <button class="diff-buttons">BEGINNER</button>
+        <button class="diff-buttons">INTERMEDIATE</button>
+        <button class="diff-buttons">EXPERT</button>
+    </div>
+
+    <!-- status bar of game -->
+    <section class="game" aria-labelledby="status-bar">
+        <header id="status-bar" class="status-bar">
+            <div class="counter">
+                <span id="mines-count">010</span>
+            </div>
+            <button id="reset-button">😊</button>
+            <div class="timer">
+                <time id="timer" role="timer">000</time>
+            </div>
+        </header>
+    </section>
+
+    <!-- game message -->
+    <div id="game-message" class="game-message"></div>
+
+    <!-- game board -->
+    <div id="board"></div>
+
+    <!-- footer of game board -->
+    <footer class="tool-bar">
+        <button id="flag-button">🚩</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
