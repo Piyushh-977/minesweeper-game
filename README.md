@@ -1,41 +1,53 @@
-# minesweeper-game
-Minesweeper - JavaScript Practice Project
-A classic Minesweeper game built with vanilla JavaScript, HTML, and CSS as a beginner-friendly practice project. This project focuses on implementing core game logic, DOM manipulation, and event handling while creating a functional and interactive game.
-Features
-
-Three Difficulty Levels: Beginner (9x9, 10 mines), Intermediate (16x16, 40 mines), and Expert (16x30, 99 mines).
-Interactive Gameplay: Left-click to reveal cells, right-click to flag mines, and toggle flag mode with a dedicated button.
-Dynamic UI: Timer, mine counter, and a reset button (smiley face) to restart the game.
-Custom Styling: Centered flag button, no gap between status bar and board, and a modern gray-themed status bar (#A8A8A8).
-Game Over Message: Displays "Congratulations! You won!" or "Game Over! You hit a mine!" in the DOM.
-Responsive Design: Works on desktop and touch devices (with ongoing reset button fix for touch).
-
-Learning Objectives
-
-JavaScript: Game state management, event listeners (click, contextmenu, pointerdown), recursive cell revealing, and timer implementation.
-DOM Manipulation: Dynamically rendering the game board, updating UI elements, and handling user interactions.
-CSS: Flexbox for layout (e.g., centered flag button), grid for the board, and minimalistic styling.
-HTML: Semantic structure with accessibility considerations (e.g., aria-labelledby).
-
-How to Play
-
-Open index.html in a browser.
-Select a difficulty (Beginner, Intermediate, Expert).
-Left-click to reveal cells, right-click to flag suspected mines, or use the flag button to toggle flag mode.
-Avoid mines to win by revealing all non-mine cells.
-Click the smiley face to reset the game.
-
-Installation
-
-Clone the repository: git clone https://github.com/your-username/minesweeper-js.git
-Open index.html in a browser to play.
-
-Future Improvements
-
-Ensure the first click is mine-free.
-Add a high score system to track best times.
-Enhance touch support with long-press flagging.
-Include animations for cell reveals or game over.
-
-License
-MIT License - feel free to use, modify, and share this project.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README</title>
+</head>
+<body>
+    <h1>Minesweeper - JavaScript Practice Project</h1>
+    <p>A simple Minesweeper game built with JavaScript, HTML, and CSS for practicing web development.</p>
+    
+    <h2>Features</h2>
+    <ul>
+        <li>Difficulty levels: Beginner (9x9, 10 mines), Intermediate (16x16, 40 mines), Expert (16x30, 99 mines)</li>
+        <li>Gameplay: Reveal cells, flag mines, toggle flag mode</li>
+        <li>UI: Timer, mine counter, reset button, centered flag button, no gap between status bar and board</li>
+        <li>DOM-based win/loss messages</li>
+        <li>Styled with a modern gray status bar (#A8A8A8)</li>
+    </ul>
+    
+    <h2>Learning Goals</h2>
+    <ul>
+        <li>JavaScript: Game logic, event handling, DOM manipulation</li>
+        <li>CSS: Flexbox, grid, styling</li>
+        <li>HTML: Semantic structure</li>
+    </ul>
+    
+    <h2>How to Play</h2>
+    <ol>
+        <li>Open <code>index.html</code> in a browser</li>
+        <li>Choose a difficulty</li>
+        <li>Left-click to reveal, right-click to flag</li>
+        <li>Reset with the smiley button</li>
+    </ol>
+    
+    <h2>Installation</h2>
+    <ol>
+        <li>Clone repo: <code>git clone https://github.com/your-username/minesweeper-js.git</code></li>
+        <li>Open <code>index.html</code></li>
+    </ol>
+    
+    <h2>Future Enhancements</h2>
+    <ul>
+        <li>Mine-free first click</li>
+        <li>High scores</li>
+        <li>Touch support for flagging</li>
+        <li>Animations</li>
+    </ul>
+    
+    <h2>License</h2>
+    <p>MIT License</p>
+</body>
+</html>
