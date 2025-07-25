@@ -1,7 +1,8 @@
 Minesweeper - JavaScript Practice Project
 A simple Minesweeper game built with JavaScript, HTML, and CSS .
 <br><br>
-LINK : 
+LIVE AT : https://piyushh-977.github.io/minesweeper-game/
+<br><br>
 Features :
 <br><br>
 Difficulty levels: Beginner (9x9, 10 mines), Intermediate (16x16, 40 mines), Expert (16x30, 99 mines)
@@ -22,7 +23,7 @@ HTML: Semantic structure
 <br><br>
 How to Play
 <br><br>
-Open index.html in a browser
+Open index.html in a browser or open the live link.
 <br>
 Choose a difficulty level
 <br>
